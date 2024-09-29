@@ -10,6 +10,7 @@ from cinema.views import (
     CinemaHallViewSet,
 )
 
+
 router = routers.DefaultRouter()
 
 router.register("movies", MovieViewSet)
